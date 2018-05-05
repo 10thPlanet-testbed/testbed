@@ -19,6 +19,8 @@ package com.example.android.cardview
 import android.support.test.InstrumentationRegistry
 import android.support.test.rule.ActivityTestRule
 import android.support.test.runner.AndroidJUnit4
+import com.meyn.android.cardview.CardViewActivity
+import com.meyn.android.cardview.CardViewFragment
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Before
