@@ -1,5 +1,5 @@
 
-Android CardView Sample Sample (Kotlin)
+Android CardView Sample Sample (Kotlin) [![Build Status](https://www.bitrise.io/app/5e35679b1f7ea7ed/status.svg?token=knykYNN6iWcHR3hNCaqtkA&branch=dev)](https://www.bitrise.io/app/5e35679b1f7ea7ed)
 =======================================
 
 This sample demonstrates how to use CardView introduced in the support library in
