@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.cardview
+package com.meyn.android.cardview
 
 import android.app.Fragment
 import android.os.Bundle
@@ -26,20 +26,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.SeekBar
 
-/**
- * Fragment that demonstrates how to use [CardView].
- */
 class CardViewFragment : Fragment() {
 
     private val TAG = "CardViewFragment"
 
-    // The [CardView] widget.
     @VisibleForTesting lateinit var cardView: CardView
-
-    // SeekBar that changes the cornerRadius attribute for the cardView widget.
     @VisibleForTesting lateinit var radiusSeekBar: SeekBar
-
-    // SeekBar that changes the Elevation attribute for the cardView widget.
     @VisibleForTesting lateinit var elevationSeekBar: SeekBar
 
     override fun onCreateView(
